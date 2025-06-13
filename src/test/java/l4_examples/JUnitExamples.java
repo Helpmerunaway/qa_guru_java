@@ -1,3 +1,5 @@
+package l4_examples;
+
 import org.junit.jupiter.api.*;
 
 public class JUnitExamples {
