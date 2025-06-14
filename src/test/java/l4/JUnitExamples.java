@@ -1,4 +1,4 @@
-package l4_examples;
+package l4;
 
 import org.junit.jupiter.api.*;
 

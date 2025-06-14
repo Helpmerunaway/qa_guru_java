@@ -1,4 +1,4 @@
-package l4_tests;
+package l4;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
