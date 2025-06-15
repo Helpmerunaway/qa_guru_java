@@ -1,6 +1,4 @@
-package l9.pages.components;
-
-import com.codeborne.selenide.Selenide;
+package l9.pages_and_hw.components;
 
 import static com.codeborne.selenide.Condition.appear;
 import static com.codeborne.selenide.Condition.text;

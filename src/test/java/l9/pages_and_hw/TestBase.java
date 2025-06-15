@@ -1,4 +1,4 @@
-package l9.pages;
+package l9.pages_and_hw;
 
 
 import com.codeborne.selenide.Configuration;
