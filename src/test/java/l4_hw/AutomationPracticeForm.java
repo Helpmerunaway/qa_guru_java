@@ -8,7 +8,9 @@ import static com.codeborne.selenide.Condition.appear;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
-
+//Задание
+//Разработайте один автотест на проверку формы https://demoqa.com/automation-practice-form
+//Запушьте код в свой репозиторий и дайте на него ссылку в качестве ответа на домашнее задание
 public class AutomationPracticeForm {
     @BeforeAll
     static void beforeAll() {
