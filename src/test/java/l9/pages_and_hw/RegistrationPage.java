@@ -23,6 +23,7 @@ public class RegistrationPage {
             dateOfBirthInput = $("#dateOfBirthInput"),
             subjectsField = $("#subjectsContainer"),
             subjectsInput = $("#subjectsInput"),
+            userHobbies = $("#hobbiesWrapper"),
             stateOrCitySelectOption = $("#stateCity-wrapper");
 
     public RegistrationPage openPage(){
@@ -100,6 +101,12 @@ public class RegistrationPage {
         $("#hobbies-checkbox-2").parent().$(byText("Reading")).click();
         return this;
 
+    }
+
+    public RegistrationPage setHobbies(String value) {
+        userHobbies.$(byText(value)).click();
+
+        return this;
     }
 
     public RegistrationPage UploadPic(String path){
